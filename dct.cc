@@ -6,11 +6,11 @@ using namespace std;
 
 int main() {
     ifstream in_file;
-    in_file.open("dct.in", ios::in);
+    in_file.open("test.in", ios::in);
     int N;
 
     ofstream out_file;
-    out_file.open("dct.out", ios::out);
+    out_file.open("test.out", ios::out);
 
     if (in_file.is_open()) {
         while (in_file >> N) {
